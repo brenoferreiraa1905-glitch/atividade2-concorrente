@@ -45,14 +45,9 @@ O tempo foi medido utilizando a biblioteca `time`. Foram realizadas 3 execuçõe
 | 12 | 18,90 | 6.37 | 0.53 |
 
 ## 7. Gráficos
-### Gráfico de Tempo de Execução
-![Gráfico de Tempo](grafico_tempo.png)
 
-### Gráfico de Speedup
-![Gráfico de Speedup](grafico_speedup.png)
+![graficos](graficos.png)
 
-### Gráfico de Eficiência
-![Gráfico de Eficiência](grafico_eficiencia.png)
 
 ## 10. Análise dos Resultados
 O speedup apresentou um crescimento constante até 8 threads. A eficiência caiu ao usar 12 threads, pois o número de processos ultrapassou os núcleos físicos da máquina, gerando sobrecarga de gerenciamento do sistema operacional.
